@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SPORTTECH — Tecnología que impulsa el deporte</title>
+<meta name="description" content="SPORTTECH es una revista digital sobre tecnología aplicada al deporte: termografía deportiva, estadios inteligentes y nanotecnología, con artículos, videos y fuentes científicas.">
+<meta name="theme-color" content="#fffdf9">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SPORTTECH — Tecnología que impulsa el deporte">
+<meta property="og:description" content="Termografía, estadios inteligentes y nanotecnología explicados con rigor y apoyados en fuentes.">
+<meta property="og:image" content="images/estadio-noche.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Caveat:wght@500;700&family=Inter:wght@400;500;600&family=Permanent+Marker&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Blog","name":"SPORTTECH","description":"Tecnología que impulsa el deporte: termografía, estadios inteligentes y nanotecnología.","inLanguage":"es"}
+</script>
+<link rel="stylesheet" href="css/blog.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<!-- Sprite de iconos (Lucide ISC / Simple Icons CC0, archivos originales en images/icons) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="7"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6"/>
+    </filter>
+    <filter id="brush" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="3" seed="2"/>
+      <feDisplacementMap in="SourceGraphic" scale="9"/>
+    </filter>
+  </defs>
+<!--ICONS:START-->
+<symbol id="i-arrow-right" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /></g></symbol>
+<symbol id="i-arrow-up-right" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10" /> <path d="M7 17 17 7" /></g></symbol>
+<symbol id="i-book-open" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /></g></symbol>
+<symbol id="i-brand-x" viewBox="0 0 24 24"><g fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></g></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /> <polyline points="12 6 12 12 16 14" /></g></symbol>
+<symbol id="i-cpu" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2" /> <rect width="6" height="6" x="9" y="9" rx="1" /> <path d="M15 2v2" /> <path d="M15 20v2" /> <path d="M2 15h2" /> <path d="M2 9h2" /> <path d="M20 15h2" /> <path d="M20 9h2" /> <path d="M9 2v2" /> <path d="M9 20v2" /></g></symbol>
+<symbol id="i-external-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6" /> <path d="M10 14 21 3" /> <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></g></symbol>
+<symbol id="i-file-text" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" /></g></symbol>
+<symbol id="i-flask-conical" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2" /> <path d="M8.5 2h7" /> <path d="M7 16h10" /></g></symbol>
+<symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /> <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /> <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></g></symbol>
+<symbol id="i-leaf" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" /> <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" /></g></symbol>
+<symbol id="i-linkedin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /> <rect width="4" height="12" x="2" y="9" /> <circle cx="4" cy="4" r="2" /></g></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><g fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 3 20 12 6 21 6 3" /></g></symbol>
+<symbol id="i-quote" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" /> <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" /></g></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8" /> <path d="m21 21-4.3-4.3" /></g></symbol>
+<symbol id="i-sparkles" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" /> <path d="M20 3v4" /> <path d="M22 5h-4" /> <path d="M4 17v2" /> <path d="M5 18H3" /></g></symbol>
+<symbol id="i-thermometer" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z" /></g></symbol>
+<symbol id="i-wifi" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h.01" /> <path d="M2 8.82a15 15 0 0 1 20 0" /> <path d="M5 12.859a10 10 0 0 1 14 0" /> <path d="M8.5 16.429a5 5 0 0 1 7 0" /></g></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" /> <path d="m6 6 12 12" /></g></symbol>
+<symbol id="i-youtube" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" /> <path d="m10 15 5-3-5-3z" /></g></symbol>
+<!--ICONS:END-->
+</svg>
+
+<!-- =====================================================
+     PORTADA
+     ===================================================== -->
+<section class="hero" id="inicio" aria-labelledby="hero-title">
+  <div class="wrap hero__grid">
+    <div class="hero__text">
+      <p class="logo" data-enter style="--i:0" aria-label="SPORTTECH">
+        <svg viewBox="0 0 44 30" aria-hidden="true"><path class="sk sk-thick" d="M6 26 L14 6 L22 24 M10 16 h10 M28 8 c4 -4 10 -2 10 4" /></svg>
+        <span class="logo__sport" aria-hidden="true">SPORT</span><span class="logo__tech" aria-hidden="true">TECH</span>
+      </p>
+      <h1 id="hero-title" data-enter style="--i:1">Tecnología que impulsa el deporte</h1>
+      <p class="hero__lead" data-enter style="--i:2">Exploramos cómo la innovación tecnológica está transformando el rendimiento deportivo, la experiencia de los aficionados y la gestión de los eventos. Desde la termografía hasta la nanotecnología, descubre las herramientas que están cambiando el mundo del deporte.</p>
+      <div class="hero__cta" data-enter style="--i:3">
+        <a class="btn btn--blue" href="#contenido">Explorar el blog <svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        <span class="hand hero__note">ciencia + deporte</span>
+      </div>
+      <svg class="hero__arrow" viewBox="0 0 40 110" aria-hidden="true"><path class="sk draw" pathLength="1" style="--d:900" d="M26 4 C6 30 6 64 18 100 M8 88 L18 102 L28 90"/></svg>
+    </div>
+
+    <div class="hero__art" aria-hidden="true">
+      <!-- manchas de marcador detrás -->
+      <svg class="hero__brush" viewBox="0 0 400 500" preserveAspectRatio="none">
+        <g filter="url(#brush)">
+          <path d="M40 120 C90 60 210 40 300 90 C360 130 330 230 300 300 C270 380 160 440 90 400 C20 360 0 200 40 120Z" fill="#cfe6ff" opacity=".8"/>
+          <path d="M20 330 C80 300 150 360 230 330" stroke="#ffe27a" stroke-width="22" stroke-linecap="round" fill="none"/>
+          <path d="M250 40 L300 20 L270 70 L330 50" stroke="#ffe27a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <path d="M330 300 C350 330 340 380 300 420" stroke="#1a8cff" stroke-width="8" stroke-linecap="round" fill="none" opacity=".55"/>
+        </g>
+      </svg>
+      <div class="hero__blob"><img src="images/atleta-velocidad.jpg" alt="" width="1024" height="683" fetchpriority="high"></div>
+      <!-- trazos sobre la foto: líneas de movimiento y rayos -->
+      <svg class="hero__over" viewBox="0 0 400 500" preserveAspectRatio="none">
+        <g filter="url(#rough)">
+          <path class="sk draw" pathLength="1" style="--d:600" d="M12 210 h46 M4 240 h60 M20 270 h40"/>
+          <path class="sk sk-blue sk-thick draw" pathLength="1" style="--d:800" d="M30 70 L60 40 L58 72 L90 44"/>
+          <path class="sk draw" pathLength="1" style="--d:1000" d="M300 470 C330 440 360 450 380 420"/>
+          <path class="sk sk-thin draw" pathLength="1" style="--d:1100" d="M330 60 C350 40 380 50 392 30"/>
+        </g>
+        <g class="twinkle"><path class="sk sk-blue" d="M70 120 v14 M63 127 h14"/></g>
+        <g class="twinkle" style="animation-delay:.8s"><path class="sk" d="M340 210 v10 M335 215 h10"/></g>
+      </svg>
+      <!-- estadio dibujado -->
+      <svg class="hero__stadium" viewBox="0 0 260 150" filter="url(#rough)">
+        <ellipse class="sk draw" pathLength="1" style="--d:500" cx="130" cy="92" rx="120" ry="42"/>
+        <ellipse class="sk draw" pathLength="1" style="--d:700" cx="130" cy="96" rx="78" ry="22" fill="#e9f4ff"/>
+        <path class="sk sk-thin draw" pathLength="1" style="--d:900" d="M10 92 C20 50 240 50 250 92 M24 70 C60 40 200 40 236 70 M40 56 L48 104 M70 46 L76 112 M104 42 L106 116 M156 42 L154 116 M190 46 L184 112 M220 56 L212 104"/>
+        <path class="sk draw" pathLength="1" style="--d:1100" d="M130 74 v44 M52 96 C80 92 180 92 208 96"/>
+        <path class="sk sk-blue draw" pathLength="1" style="--d:1300" d="M20 30 v-18 l8 -6 M240 30 v-18 l-8 -6"/>
+        <g class="twinkle"><circle cx="28" cy="6" r="3" fill="#ffe27a"/></g>
+        <g class="twinkle" style="animation-delay:1s"><circle cx="232" cy="6" r="3" fill="#ffe27a"/></g>
+      </svg>
+      <!-- cámara termográfica -->
+      <svg class="hero__cam" viewBox="0 0 160 230">
+        <defs><clipPath id="screen"><rect x="30" y="30" width="96" height="70" rx="8"/></clipPath>
+          <linearGradient id="scanG" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+        <g filter="url(#rough)">
+          <path d="M60 116 L52 214 C52 222 92 224 96 216 L104 116Z" fill="#1c2535" stroke="#0b1a33" stroke-width="3"/>
+          <rect x="16" y="16" width="124" height="100" rx="18" fill="#2a3446" stroke="#0b1a33" stroke-width="3"/>
+          <circle cx="140" cy="66" r="12" fill="#0b1a33"/>
+        </g>
+        <g clip-path="url(#screen)">
+          <image href="images/termografia-cuerpo.jpg" x="20" y="30" width="120" height="72" preserveAspectRatio="xMidYMid slice"/>
+          <rect class="scan" x="30" y="14" width="96" height="18" fill="url(#scanG)"/>
+        </g>
+        <rect x="30" y="30" width="96" height="70" rx="8" fill="none" stroke="#0b1a33" stroke-width="2"/>
+        <path class="sk sk-blue" d="M70 150 h20 M70 166 h20" stroke-width="2"/>
+      </svg>
+      <!-- nanoesfera -->
+      <svg class="hero__nano" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="56" fill="#d9ecff" opacity=".6" filter="url(#brush)"/>
+        <g class="spin">
+          <circle class="sk sk-blue" cx="60" cy="60" r="44"/>
+          <ellipse class="sk sk-blue sk-thin" cx="60" cy="60" rx="18" ry="44"/>
+          <ellipse class="sk sk-blue sk-thin" cx="60" cy="60" rx="34" ry="44"/>
+          <ellipse class="sk sk-blue sk-thin" cx="60" cy="60" rx="44" ry="16"/>
+          <ellipse class="sk sk-blue sk-thin" cx="60" cy="60" rx="44" ry="32"/>
+          <g fill="#0b6fe0"><circle class="pulse-node" cx="60" cy="16" r="3.4"/><circle class="pulse-node" style="animation-delay:.4s" cx="94" cy="44" r="3.4"/><circle class="pulse-node" style="animation-delay:.8s" cx="78" cy="94" r="3.4"/><circle class="pulse-node" style="animation-delay:1.2s" cx="26" cy="80" r="3.4"/><circle class="pulse-node" style="animation-delay:1.6s" cx="34" cy="34" r="3.4"/><circle cx="60" cy="60" r="4"/></g>
+        </g>
+      </svg>
+      <!-- anotaciones manuscritas -->
+      <div class="hero__label hand hero__label--1" data-enter style="--i:5">El deporte<br>también evoluciona
+        <svg width="60" height="40" viewBox="0 0 60 40"><path class="sk draw wiggle" pathLength="1" style="--d:1500" d="M50 2 C56 20 40 32 18 34 M26 26 L16 34 L26 40"/></svg>
+      </div>
+      <div class="hero__label hero__label--2" data-enter style="--i:6">Termografía<br>Estadios inteligentes<br>Nanotecnología
+        <svg width="150" height="14" viewBox="0 0 150 14"><path class="sk draw" pathLength="1" style="--d:1700" d="M4 8 C40 2 90 12 146 4"/></svg>
+      </div>
+      <div class="hero__label hand hero__label--3" data-enter style="--i:7">Más tecnología<br>= más posibilidades</div>
+      <div class="hero__label hand hero__label--4" data-enter style="--i:8">Innovación<br>+ rendimiento</div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker__track" id="ticker"></div></div>
+
+<!-- =====================================================
+     FILTROS
+     ===================================================== -->
+<nav class="filters" id="filtros" aria-label="Filtrar contenidos por tema">
+  <div class="wrap">
+    <div class="filters__row">
+      <div class="tabs" id="tabs" role="group" aria-label="Categorías"></div>
+      <div class="search" id="searchBox">
+        <label for="q" class="sr-only">Buscar en el blog</label>
+        <svg class="ic" aria-hidden="true"><use href="#i-search"/></svg>
+        <input id="q" type="search" placeholder="Buscar en el blog…" autocomplete="off">
+        <button class="search__clear" type="button" aria-label="Borrar búsqueda"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button>
+      </div>
+    </div>
+    <div class="status" id="status" aria-live="polite"></div>
+  </div>
+</nav>
+
+<main id="contenido" tabindex="-1">
+  <div class="wrap editorial">
+    <div class="main">
+      <!-- Destacado -->
+      <section aria-label="Contenido destacado" data-group="featured">
+        <div class="featured-row" id="featuredRow"></div>
+      </section>
+
+      <!-- Artículos destacados -->
+      <section aria-labelledby="h-articulos" data-group="articles">
+        <div class="shead" data-reveal>
+          <svg viewBox="0 0 44 22" aria-hidden="true"><path class="sk draw" pathLength="1" d="M2 12 C14 8 26 14 40 10 M32 4 L40 10 L33 17"/></svg>
+          <h2 id="h-articulos">Artículos destacados</h2>
+          <svg viewBox="0 0 44 22" aria-hidden="true"><path class="sk draw wiggle" pathLength="1" style="--d:300" d="M2 11 h36 M30 4 L39 11 L30 18"/></svg>
+        </div>
+        <div class="agrid" id="articles">
+          <div class="skel"><i></i><i></i><i></i></div><div class="skel"><i></i><i></i><i></i></div><div class="skel"><i></i><i></i><i></i></div>
+        </div>
+      </section>
+
+      <!-- Mitos y realidades -->
+      <section aria-labelledby="h-myths" data-group="myths">
+        <div class="shead" data-reveal>
+          <svg viewBox="0 0 44 22" aria-hidden="true"><path class="sk sk-blue draw" pathLength="1" d="M4 18 L12 4 L20 18 L28 4 L36 18"/></svg>
+          <h2 id="h-myths">Mitos y realidades</h2>
+          <span class="hand shead__hand">gira las tarjetas ↻</span>
+        </div>
+        <div class="myths" id="myths"></div>
+      </section>
+
+      <div class="empty" id="empty" role="status">
+        <svg viewBox="0 0 140 110" aria-hidden="true" filter="url(#rough)">
+          <circle class="sk" cx="58" cy="50" r="32"/><path class="sk sk-thick" d="M82 74 L116 104"/>
+          <path class="sk sk-blue" d="M44 42 c4 -6 10 -6 14 0 M60 42 c4 -6 10 -6 14 0 M48 64 c6 -4 14 -4 20 0"/>
+        </svg>
+        <h3>No encontramos contenidos</h3>
+        <p>Prueba con otra categoría, otro término de búsqueda o elige un concepto clave.</p>
+        <button class="btn btn--ink" type="button" data-reset>Ver todo <svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></button>
+      </div>
+      <section class="cta" id="mas" aria-labelledby="h-cta" data-reveal>
+        <svg class="cta__ball" viewBox="0 0 100 100" aria-hidden="true">
+          <g class="bounce"><g filter="url(#rough)">
+            <path d="M8 80 C20 60 10 40 26 22" stroke="#ffe27a" stroke-width="10" stroke-linecap="round" fill="none" opacity=".8"/>
+            <g class="ball">
+              <circle cx="50" cy="50" r="38" fill="#fff" stroke="#0b1a33" stroke-width="2.4"/>
+              <path d="M50 36 L63 45 L58 61 L42 61 L37 45Z" fill="#0b1a33"/>
+              <path class="sk sk-thin" d="M50 36 V14 M63 45 L84 38 M58 61 L70 80 M42 61 L30 80 M37 45 L16 38"/>
+              <path d="M44 13 L56 13 L60 18 L50 22 L40 18Z M86 34 L88 46 L82 50 L80 40Z M24 82 L34 86 L30 80Z M14 34 L12 46 L18 50 L20 40Z" fill="#0b1a33"/>
+            </g>
+          </g></g>
+          <path class="sk sk-blue sk-thin" d="M2 64 h10 M0 72 h8"/>
+        </svg>
+        <div>
+          <h2 id="h-cta">¿Quieres saber más?</h2>
+          <p>Descubre todos los artículos, videos y recursos que tenemos para ti sobre tecnología y deporte.</p>
+          <a class="btn btn--ink" href="#recursos">Ver todos los recursos <svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        </div>
+        <svg class="cta__whistle" viewBox="0 0 70 40" aria-hidden="true" filter="url(#rough)"><path class="sk sk-blue draw wiggle" pathLength="1" d="M10 30 C20 6 50 6 60 20 M48 10 L62 20 L50 28"/></svg>
+      </section>
+    </div>
+
+    <aside class="aside" aria-label="Columna lateral">
+      <figure class="quote" data-reveal style="margin:0">
+        <svg class="ic" aria-hidden="true"><use href="#i-quote"/></svg>
+        <blockquote>El futuro del deporte no solo se juega en la cancha, sino también en la tecnología.</blockquote>
+        <svg class="qarrow" viewBox="0 0 110 28" aria-hidden="true"><path class="sk draw" pathLength="1" d="M4 22 C30 18 60 12 100 6 M90 2 L101 6 L93 14"/></svg>
+        <svg class="runner bob" viewBox="0 0 100 100" aria-hidden="true" filter="url(#rough)">
+          <circle class="sk" cx="64" cy="18" r="7"/>
+          <path class="sk" d="M60 27 L50 54 M58 33 L44 38 L36 32 M58 32 L70 42 L80 36 M50 54 L64 64 L60 82 L68 84 M50 54 L40 72 L24 74"/>
+          <path class="sk sk-blue sk-thin" d="M10 40 h18 M4 52 h22 M14 64 h14"/>
+        </svg>
+      </figure>
+      <section class="latest" aria-labelledby="h-latest" data-reveal style="--i:1">
+        <h2 id="h-latest"><span class="dot"><svg class="ic" aria-hidden="true" style="fill:#fff;stroke:none"><use href="#i-play"/></svg></span>Últimos videos</h2>
+        <ul id="latest"></ul>
+        <p class="latest__empty is-hidden" id="latestEmpty">No hay videos para este filtro.</p>
+        <svg class="latest__corner" viewBox="0 0 34 34" aria-hidden="true"><path class="sk draw wiggle" pathLength="1" d="M30 4 L6 28 M6 14 V28 H20"/></svg>
+      </section>
+      <section class="news" aria-labelledby="h-news" data-group="news" data-reveal style="--i:2">
+        <h2 id="h-news" class="side-h"><svg class="ic" aria-hidden="true"><use href="#i-file-text"/></svg>Actualidad</h2>
+        <div class="timeline" id="timeline"></div>
+      </section>
+      <section class="resources" id="recursos" aria-labelledby="h-recursos" data-reveal>
+        <h2 id="h-recursos">Recursos recomendados</h2>
+        <p>Fuentes científicas y técnicas reales para profundizar. Los enlaces abren en una pestaña nueva.</p>
+        <div id="resources"></div>
+        <svg class="resources__zap" viewBox="0 0 30 50" aria-hidden="true"><path class="sk sk-blue draw wiggle" pathLength="1" d="M18 2 L6 24 L20 24 L10 48"/></svg>
+      </section>
+      <section class="concepts" id="conceptos" aria-labelledby="h-conceptos" data-reveal style="--i:1">
+        <h2 id="h-conceptos"><svg class="ic" aria-hidden="true" style="color:var(--blue)"><use href="#i-sparkles"/></svg>Conceptos clave</h2>
+        <p>Toca un concepto para encontrar los artículos, noticias y videos relacionados.</p>
+        <div class="chips" id="chips"></div>
+        <svg class="shoe" viewBox="0 0 220 110" aria-hidden="true" filter="url(#rough)">
+          <path class="sk sk-blue sk-thin draw" pathLength="1" d="M4 70 h26 M10 84 h22 M18 56 h14"/>
+          <path class="sk draw" pathLength="1" style="--d:200" d="M40 78 C40 62 56 56 76 54 L108 30 C120 22 134 26 138 36 L152 58 C176 62 204 68 210 80 C212 92 198 96 176 96 L52 96 C44 96 40 88 40 78Z"/>
+          <path class="sk draw" pathLength="1" style="--d:500" d="M40 84 H210 M112 40 l10 10 M120 34 l12 12 M104 48 l10 8 M150 60 C150 70 140 76 128 76"/>
+          <path d="M60 96 L190 96" stroke="#ffe27a" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+          <path class="sk sk-blue draw" pathLength="1" style="--d:800" d="M168 40 l6 -16 l8 14 l8 -12"/>
+        </svg>
+      </section>
+    </aside>
+  </div>
+
+  <!-- =====================================================
+       VIDEOS
+       ===================================================== -->
+  <section class="videos" id="videos" aria-labelledby="h-videos" data-group="videos">
+    <div class="videos__bg" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="shead" data-reveal>
+        <svg viewBox="0 0 44 22" aria-hidden="true"><path class="sk draw" pathLength="1" d="M2 12 C14 8 26 14 40 10 M32 4 L40 10 L33 17"/></svg>
+        <h2 id="h-videos">Videos que explican el futuro del deporte</h2>
+        <span class="hand shead__hand">dale play ↘</span>
+      </div>
+      <div class="videos__grid">
+        <div class="stage" data-reveal>
+          <div class="stage__screen" id="stageScreen"></div>
+          <div class="stage__info" id="stageInfo"></div>
+          <svg class="stage__sketch" viewBox="0 0 90 70" aria-hidden="true" filter="url(#rough)"><path class="sk sk-blue draw" pathLength="1" d="M6 60 C20 30 50 20 84 26 M74 18 L85 26 L75 34"/><path class="sk draw" pathLength="1" style="--d:300" d="M10 20 l6 -10 l6 10 M30 12 v-8"/></svg>
+        </div>
+        <ul class="playlist" id="playlist" aria-label="Lista de videos"></ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__row">
+      <a class="flogo" href="#inicio" aria-label="SPORTTECH, volver al inicio">
+        <svg class="flogo__mark" viewBox="0 0 42 42" aria-hidden="true"><path d="M21 3 L37 12 V30 L21 39 L5 30 V12Z" fill="#1a8cff"/><path d="M14 26 C18 30 28 28 27 22 C26 17 15 20 15 15 C15 10 24 10 27 14" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/></svg>
+        <span><b>SPORT<span>TECH</span></b><small>Innovación · Deporte · Futuro</small></span>
+      </a>
+      <ul class="flinks">
+        <li><a href="#contenido">Destacados</a></li>
+        <li><a href="#h-articulos">Artículos</a></li>
+        <li><a href="#h-news">Actualidad</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#conceptos">Conceptos</a></li>
+      </ul>
+      <p class="ftag">La tecnología también juega
+        <svg viewBox="0 0 40 40" aria-hidden="true"><path class="sk sk-blue draw wiggle" pathLength="1" d="M6 34 C2 18 18 6 34 10 M26 4 L35 10 L28 18"/></svg>
+      </p>
+      <div class="social" aria-label="Redes sociales">
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><svg class="ic" aria-hidden="true"><use href="#i-youtube"/></svg></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ic" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+        <a href="https://x.com/" target="_blank" rel="noopener" aria-label="X"><svg class="ic fill" aria-hidden="true"><use href="#i-brand-x"/></svg></a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+      </div>
+    </div>
+    <p class="footer__small">
+      <span>SPORTTECH explica con rigor cómo la termografía, los estadios inteligentes y la nanotecnología transforman el deporte.</span>
+      <span>Las fechas de publicación del blog son de ejemplo.</span>
+      <a href="images/CREDITS.md">Créditos de imágenes e iconos</a>
+    </p>
+  </div>
+</footer>
+
+<dialog class="reader" id="reader" aria-labelledby="readerTitle">
+  <button class="reader__close" type="button" data-close aria-label="Cerrar artículo"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button>
+  <div id="readerContent"></div>
+</dialog>
+
+<script src="js/blog.js" defer></script>
+</body>
+</html>

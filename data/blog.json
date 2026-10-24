@@ -1,0 +1,672 @@
+{
+  "meta": {
+    "name": "SPORTTECH",
+    "description": "Datos del blog: categorías, conceptos, fuentes, artículos, noticias, mitos, videos y recursos."
+  },
+  "categories": [
+    {
+      "id": "todo",
+      "label": "Todo"
+    },
+    {
+      "id": "termografia",
+      "label": "Termografía",
+      "kind": "topic"
+    },
+    {
+      "id": "estadios",
+      "label": "Estadios inteligentes",
+      "kind": "topic"
+    },
+    {
+      "id": "nanotecnologia",
+      "label": "Nanotecnología",
+      "kind": "topic"
+    },
+    {
+      "id": "articulos",
+      "label": "Artículos",
+      "kind": "type"
+    },
+    {
+      "id": "noticias",
+      "label": "Noticias",
+      "kind": "type"
+    },
+    {
+      "id": "videos",
+      "label": "Videos",
+      "kind": "type"
+    }
+  ],
+  "topics": {
+    "termografia": "Termografía",
+    "estadios": "Estadios inteligentes",
+    "nanotecnologia": "Nanotecnología",
+    "tecnologia": "Tecnología",
+    "ia": "Inteligencia artificial",
+    "etica": "Ética deportiva"
+  },
+  "concepts": [
+    {
+      "id": "ia",
+      "label": "Inteligencia artificial"
+    },
+    {
+      "id": "bigdata",
+      "label": "Big Data"
+    },
+    {
+      "id": "wearables",
+      "label": "Wearables"
+    },
+    {
+      "id": "sensores",
+      "label": "Sensores"
+    },
+    {
+      "id": "biomateriales",
+      "label": "Biomateriales"
+    },
+    {
+      "id": "termografia",
+      "label": "Termografía"
+    },
+    {
+      "id": "iot",
+      "label": "Internet de las cosas"
+    },
+    {
+      "id": "5g",
+      "label": "5G"
+    },
+    {
+      "id": "sostenibilidad",
+      "label": "Sostenibilidad"
+    },
+    {
+      "id": "rv",
+      "label": "Realidad virtual"
+    },
+    {
+      "id": "movimiento",
+      "label": "Análisis del movimiento"
+    }
+  ],
+  "sources": {
+    "frontiers": {
+      "label": "Frontiers in Physiology (2026) — Infrared thermography to assess fatigue, injury risk factors and recovery in soccer",
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1835464/full"
+    },
+    "nano": {
+      "label": "Results in Chemistry (2025) — A comprehensive review on nanotechnology’s multifaceted applications in sports",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2211715625005211"
+    },
+    "telekom": {
+      "label": "Deutsche Telekom IoT — The 2026 World Cup and smart stadiums: what the IoT can achieve",
+      "url": "https://prd-preview.iot.telekom.com/en/blog/the-2026-world-cup-and-smart-stadiums-what-the-iot-can-achieve"
+    },
+    "pubThermo": {
+      "label": "PubMed — búsqueda: infrared thermography athletes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=infrared+thermography+athletes"
+    },
+    "pubWear": {
+      "label": "PubMed — búsqueda: wearable sensors athletic performance",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=wearable+sensors+athletic+performance"
+    },
+    "ieee": {
+      "label": "IEEE Xplore — búsqueda: smart stadium",
+      "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=smart%20stadium"
+    },
+    "gsa": {
+      "label": "Green Sports Alliance",
+      "url": "https://greensportsalliance.org/"
+    },
+    "schAI": {
+      "label": "Google Scholar — artificial intelligence in sports performance",
+      "url": "https://scholar.google.com/scholar?q=artificial+intelligence+in+sports+performance"
+    },
+    "schVR": {
+      "label": "Google Scholar — virtual reality training sports",
+      "url": "https://scholar.google.com/scholar?q=virtual+reality+training+sports"
+    },
+    "schCV": {
+      "label": "Google Scholar — computer vision athlete movement analysis",
+      "url": "https://scholar.google.com/scholar?q=computer+vision+athlete+movement+analysis"
+    },
+    "schEthic": {
+      "label": "Google Scholar — sports technology ethics athlete data privacy",
+      "url": "https://scholar.google.com/scholar?q=sports+technology+ethics+athlete+data+privacy"
+    }
+  },
+  "articles": [
+    {
+      "id": "termo-alto-rendimiento",
+      "featured": true,
+      "topic": "termografia",
+      "type": "articulos",
+      "date": "2026-10-12",
+      "read": "7 min",
+      "title": "Termografía deportiva: una aliada invisible en el alto rendimiento",
+      "excerpt": "La termografía infrarroja permite observar cambios en la temperatura superficial del cuerpo sin contacto. Así se investiga su uso para estudiar la fatiga y la recuperación en equipos profesionales.",
+      "img": "images/termografia-mano.jpg",
+      "alt": "Una mano fotografiada en luz visible y la misma mano en imagen térmica infrarroja",
+      "tags": [
+        "termografia",
+        "sensores"
+      ],
+      "body": [
+        "En el deporte de alto rendimiento, cada detalle puede ser importante. La termografía infrarroja utiliza cámaras que registran la radiación infrarroja emitida por la superficie corporal y la representan como una imagen de colores.",
+        "El significado de cada color depende de la paleta y de la escala elegidas, por eso no se debe asumir que un color siempre representa la misma temperatura. En el deporte suelen analizarse regiones concretas, como las piernas, y compararse con una línea base tomada en condiciones controladas.",
+        "En junio de 2026, una revisión sistemática publicada en Frontiers in Physiology reunió 20 estudios originales con futbolistas. Los autores describen resultados prometedores para estudiar fatiga, factores de riesgo y recuperación, pero advierten que hacen falta protocolos más estandarizados.",
+        "La clave: es una herramienta complementaria. Una imagen térmica no es, por sí sola, un diagnóstico ni una predicción segura de lesión."
+      ],
+      "sources": [
+        "frontiers",
+        "pubThermo"
+      ]
+    },
+    {
+      "id": "estadios-encuentro",
+      "topic": "estadios",
+      "type": "articulos",
+      "date": "2026-10-08",
+      "read": "8 min",
+      "layout": "card",
+      "sketch": "stadium",
+      "title": "Estadios inteligentes: cuando la tecnología y el deporte se encuentran",
+      "excerpt": "Desde la conectividad 5G hasta la gestión energética, los estadios conectados buscan mejorar la operación y la experiencia de los aficionados.",
+      "img": "images/estadio-inteligente.jpg",
+      "alt": "Estadio de fútbol iluminado por la noche con las gradas casi vacías",
+      "tags": [
+        "iot",
+        "sensores",
+        "bigdata",
+        "5g",
+        "sostenibilidad"
+      ],
+      "body": [
+        "Un estadio inteligente integra sensores, redes de alta capacidad, control de acceso, aplicaciones móviles y análisis de datos para apoyar la gestión del recinto.",
+        "El Internet de las cosas permite registrar variables como la humedad del césped, el consumo de energía o la ocupación de ciertas zonas. Las redes de alta capacidad, incluido el 5G, facilitan servicios digitales cuando miles de personas se conectan a la vez.",
+        "La clave no es instalar más pantallas, sino conectar los sistemas para tomar mejores decisiones. Su éxito se mide por la seguridad, la comodidad, la sostenibilidad y el funcionamiento, no por la cantidad de dispositivos."
+      ],
+      "sources": [
+        "telekom",
+        "ieee"
+      ]
+    },
+    {
+      "id": "nano-materiales",
+      "topic": "nanotecnologia",
+      "type": "articulos",
+      "date": "2026-10-02",
+      "read": "7 min",
+      "layout": "card",
+      "title": "Nanotecnología en el deporte: materiales que hacen la diferencia",
+      "excerpt": "Ropa, calzado y equipamiento: la investigación en nanomateriales busca prendas más ligeras, resistentes y funcionales.",
+      "img": "images/nano-patron.jpg",
+      "alt": "Textura azul de imitación de fibra de carbono vista de cerca",
+      "tags": [
+        "biomateriales",
+        "wearables",
+        "sensores"
+      ],
+      "body": [
+        "Un nanómetro equivale a una milmillonésima parte de un metro. A esa escala, algunos materiales presentan propiedades distintas, y los investigadores estudian cómo aprovecharlas.",
+        "En el deporte se investigan tejidos con mejor gestión de la humedad, recubrimientos repelentes, materiales compuestos más resistentes y sensores flexibles integrados en prendas.",
+        "Ojo: no todo producto de fibra de carbono es nanotecnológico, y ningún material mejora automáticamente el rendimiento. La revisión de 2025 en Results in Chemistry también discute seguridad, durabilidad, costes e impacto ambiental."
+      ],
+      "sources": [
+        "nano"
+      ]
+    },
+    {
+      "id": "sensores-tiempo-real",
+      "topic": "tecnologia",
+      "type": "articulos",
+      "date": "2026-09-28",
+      "read": "5 min",
+      "layout": "card",
+      "title": "Sensores deportivos: datos en tiempo real para un mejor rendimiento",
+      "excerpt": "Los dispositivos wearables están cambiando la forma en que entrenamos, competimos y nos recuperamos.",
+      "img": "images/sensor-reloj.jpg",
+      "alt": "Mano sosteniendo un reloj inteligente con la pantalla encendida",
+      "tags": [
+        "wearables",
+        "sensores",
+        "bigdata",
+        "movimiento"
+      ],
+      "body": [
+        "Relojes deportivos, bandas de frecuencia cardíaca y sensores de movimiento registran distancia, aceleraciones o frecuencia cardíaca durante los entrenamientos.",
+        "Los profesionales usan esos datos para observar tendencias y ajustar la planificación. Sin embargo, algunas métricas son estimaciones, y su precisión varía según el dispositivo, su ubicación y las condiciones de uso.",
+        "La conclusión: los datos ayudan cuando se interpretan con criterio y conociendo las limitaciones del equipo."
+      ],
+      "sources": [
+        "pubWear"
+      ]
+    },
+    {
+      "id": "ia-profesional",
+      "topic": "ia",
+      "type": "articulos",
+      "date": "2026-10-15",
+      "read": "6 min",
+      "layout": "wide",
+      "title": "¿Cómo utiliza la inteligencia artificial el deporte profesional?",
+      "excerpt": "Análisis de datos, seguimiento de jugadores y apoyo a la planificación: la IA ya forma parte del trabajo diario de muchos cuerpos técnicos.",
+      "img": "images/ia-futbol.jpg",
+      "alt": "Jugadores profesionales disputando un balón durante un partido de fútbol",
+      "tags": [
+        "ia",
+        "bigdata",
+        "movimiento"
+      ],
+      "body": [
+        "Los algoritmos pueden procesar grandes cantidades de datos para estudiar movimientos, comparar actuaciones e identificar patrones.",
+        "En el fútbol, los sistemas de seguimiento analizan la posición de los jugadores, sus desplazamientos y ciertas acciones tácticas. También hay herramientas para analizar video y organizar la información del entrenamiento.",
+        "Los resultados dependen de la calidad de los datos y de su interpretación. La inteligencia artificial complementa la experiencia de entrenadores y especialistas; no la reemplaza."
+      ],
+      "sources": [
+        "schAI"
+      ]
+    },
+    {
+      "id": "termo-prevencion",
+      "topic": "termografia",
+      "type": "articulos",
+      "date": "2026-09-30",
+      "read": "6 min",
+      "layout": "tall",
+      "title": "Termografía deportiva y prevención de lesiones",
+      "excerpt": "¿Puede una cámara térmica ayudar a prevenir lesiones? Puede aportar señales de alerta, siempre junto a otras evaluaciones clínicas.",
+      "img": "images/camara-termica.jpg",
+      "alt": "Terminal de cámara termográfica sobre un soporte mostrando la imagen de una persona",
+      "tags": [
+        "termografia",
+        "ia"
+      ],
+      "body": [
+        "Al comparar regiones equivalentes, como ambas piernas, una diferencia térmica llamativa puede justificar una revisión adicional. Pero no constituye automáticamente evidencia de lesión.",
+        "La temperatura ambiental, la humedad, la exposición al sol, el tiempo de aclimatación y la actividad reciente pueden modificar los resultados. Por eso los protocolos de medición son tan importantes.",
+        "Durante la readaptación de un atleta, la termografía puede complementar otras mediciones, pero no debe ser el único criterio para autorizar su regreso a la competición."
+      ],
+      "sources": [
+        "frontiers",
+        "pubThermo"
+      ]
+    },
+    {
+      "id": "estadios-sostenibles",
+      "topic": "estadios",
+      "type": "articulos",
+      "date": "2026-09-22",
+      "read": "5 min",
+      "layout": "split",
+      "title": "Estadios sostenibles: tecnología para reducir el impacto ambiental",
+      "excerpt": "Monitorización energética, riego planificado con sensores e iluminación automatizada. La tecnología ayuda, pero no garantiza sola la sostenibilidad.",
+      "img": "images/estadio-sostenible.jpg",
+      "alt": "Vista nocturna de un gran estadio de fútbol lleno de público",
+      "tags": [
+        "sostenibilidad",
+        "iot",
+        "sensores"
+      ],
+      "body": [
+        "Las grandes instalaciones deportivas necesitan energía, agua y recursos para la iluminación, la climatización, el césped y los servicios.",
+        "Los sistemas de monitorización permiten estudiar el consumo eléctrico; los sensores de humedad ayudan a planificar el riego y la iluminación automatizada evita consumos innecesarios.",
+        "La arquitectura, la movilidad, los materiales y la gestión de residuos influyen tanto como la tecnología instalada."
+      ],
+      "sources": [
+        "gsa"
+      ]
+    },
+    {
+      "id": "etica",
+      "topic": "etica",
+      "type": "articulos",
+      "date": "2026-09-18",
+      "read": "4 min",
+      "layout": "note",
+      "title": "¿La tecnología puede hacer más justo el deporte?",
+      "excerpt": "Presupuestos desiguales, privacidad de los datos del atleta y beneficios por demostrar: las preguntas que acompañan a la innovación.",
+      "tags": [
+        "bigdata",
+        "wearables"
+      ],
+      "body": [
+        "Los equipos con mayores presupuestos acceden a sistemas avanzados de seguimiento, laboratorios y equipamiento costoso, lo que puede aumentar las diferencias entre organizaciones.",
+        "La recopilación de datos plantea cuestiones de privacidad y consentimiento. Equipos y proveedores deberían explicar qué datos recogen, para qué y quién puede acceder a ellos.",
+        "La innovación debe aportar valor real, respetar a los deportistas y evaluarse científicamente antes de atribuirle beneficios."
+      ],
+      "sources": [
+        "schEthic"
+      ]
+    },
+    {
+      "id": "realidad-virtual",
+      "topic": "tecnologia",
+      "type": "articulos",
+      "date": "2026-09-12",
+      "read": "4 min",
+      "layout": "plain",
+      "title": "Realidad virtual: entrenar y aprender en entornos simulados",
+      "excerpt": "Simulaciones para practicar decisiones y reconocer situaciones de juego sin recrear físicamente la competición.",
+      "img": "images/realidad-virtual.jpg",
+      "alt": "Niño usando unas gafas de realidad virtual",
+      "tags": [
+        "rv",
+        "movimiento"
+      ],
+      "body": [
+        "La realidad virtual crea entornos digitales en los que los deportistas practican decisiones y entrenan habilidades perceptivas.",
+        "Sus resultados dependen de la calidad de la simulación, del diseño del entrenamiento y de cuánto se transfiere lo practicado al entorno real. No todo ejercicio virtual mejora el rendimiento."
+      ],
+      "sources": [
+        "schVR"
+      ]
+    },
+    {
+      "id": "video-datos",
+      "topic": "tecnologia",
+      "type": "articulos",
+      "date": "2026-09-05",
+      "read": "5 min",
+      "layout": "split",
+      "title": "Del video a los datos: cómo se analiza el movimiento de un deportista",
+      "excerpt": "Visión por computador para localizar jugadores, estimar trayectorias y revisar técnicas.",
+      "img": "images/analisis-movimiento.jpg",
+      "alt": "Atletas saltando vallas durante una carrera en pista",
+      "tags": [
+        "movimiento",
+        "ia",
+        "bigdata"
+      ],
+      "body": [
+        "Las cámaras y los programas de análisis de video permiten revisar movimientos, técnicas y acciones tácticas. Algunos sistemas usan visión por computador para estimar posiciones o trayectorias.",
+        "Su precisión depende de la calidad de la imagen, la perspectiva, la iluminación y el método utilizado."
+      ],
+      "sources": [
+        "schCV"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "n-termo",
+      "topic": "termografia",
+      "type": "noticias",
+      "date": "2026-06-18",
+      "title": "La termografía en el fútbol, bajo la lupa de una revisión sistemática",
+      "excerpt": "Una revisión con 20 estudios originales concluye que la técnica muestra potencial como herramienta complementaria, aunque depende de protocolos y condiciones de medición.",
+      "src": "frontiers",
+      "tags": [
+        "termografia",
+        "sensores"
+      ]
+    },
+    {
+      "id": "n-nano",
+      "topic": "nanotecnologia",
+      "type": "noticias",
+      "date": "2025-09-01",
+      "title": "Nanomateriales para ropa, equipamiento y monitorización deportiva",
+      "excerpt": "Una revisión de 2025 analiza mejoras posibles en tejidos y equipamiento, junto a desafíos de seguridad, durabilidad, costes e impacto ambiental.",
+      "src": "nano",
+      "tags": [
+        "biomateriales",
+        "wearables"
+      ]
+    },
+    {
+      "id": "n-iot",
+      "topic": "estadios",
+      "type": "noticias",
+      "date": "2026-05-20",
+      "dateLabel": "Contexto Mundial 2026",
+      "title": "IoT y estadios inteligentes en el contexto del Mundial 2026",
+      "excerpt": "Estacionamientos, orientación de visitantes, iluminación y mantenimiento: usos posibles del IoT que no deben confundirse con implementaciones confirmadas.",
+      "src": "telekom",
+      "tags": [
+        "iot",
+        "5g",
+        "sensores"
+      ]
+    }
+  ],
+  "myths": [
+    {
+      "id": "m1",
+      "topic": "termografia",
+      "type": "noticias",
+      "q": "¿Una cámara térmica puede ver una lesión?",
+      "a": "No directamente. Registra patrones de temperatura superficial; una anomalía puede tener distintas causas y debe interpretarse en contexto.",
+      "tags": [
+        "termografia"
+      ]
+    },
+    {
+      "id": "m2",
+      "topic": "estadios",
+      "type": "noticias",
+      "q": "¿Todos los estadios inteligentes usan inteligencia artificial?",
+      "a": "No. Pueden integrar sensores y automatización sin IA en todos sus procesos. “Inteligente” describe una combinación de tecnologías.",
+      "tags": [
+        "ia",
+        "iot"
+      ]
+    },
+    {
+      "id": "m3",
+      "topic": "nanotecnologia",
+      "type": "noticias",
+      "q": "¿Toda la fibra de carbono es nanotecnología?",
+      "a": "No. Solo es nanotecnológico un producto con nanomateriales o técnicas relacionadas que lo respalden.",
+      "tags": [
+        "biomateriales"
+      ]
+    },
+    {
+      "id": "m4",
+      "topic": "tecnologia",
+      "type": "noticias",
+      "q": "¿Los dispositivos deportivos miden todo con precisión?",
+      "a": "No. Varía según el sensor, el algoritmo, la ubicación del dispositivo y las condiciones. Algunas métricas son estimaciones.",
+      "tags": [
+        "wearables",
+        "sensores"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "ktJBuyJRmCk",
+      "featured": true,
+      "topic": "estadios",
+      "type": "videos",
+      "dur": "4:23",
+      "channel": "TelecomTV",
+      "title": "Smart stadiums: Where connectivity meets fan experience",
+      "label": "Así funcionan los estadios inteligentes del futuro",
+      "desc": "Una conversación sobre cómo la conectividad está transformando la experiencia de los aficionados dentro de los estadios.",
+      "tags": [
+        "5g",
+        "iot"
+      ]
+    },
+    {
+      "id": "9KNTbo33Uzk",
+      "latest": true,
+      "topic": "termografia",
+      "type": "videos",
+      "dur": "1:44",
+      "channel": "ThermoHuman",
+      "title": "Infrared Thermography in Sports Science, Health and Research",
+      "label": "Termografía aplicada al deporte",
+      "desc": "Presentación de un fabricante sobre el uso de la termografía infrarroja en ciencias del deporte, salud e investigación.",
+      "tags": [
+        "termografia"
+      ]
+    },
+    {
+      "id": "ow6wlPhiR_A",
+      "latest": true,
+      "topic": "estadios",
+      "type": "videos",
+      "dur": "8:00",
+      "channel": "StadiumD360",
+      "title": "Small Smart Stadiums: The Future of Football in 2026",
+      "label": "Estadios pequeños e inteligentes",
+      "desc": "Cómo el diseño de estadios se orienta hacia la tecnología, las experiencias inmersivas y la sostenibilidad.",
+      "tags": [
+        "sostenibilidad",
+        "iot"
+      ]
+    },
+    {
+      "id": "mmimmZVxxsg",
+      "latest": true,
+      "topic": "nanotecnologia",
+      "type": "videos",
+      "dur": "6:38",
+      "channel": "Cátedra SAMCA de Nanotecnología",
+      "title": "NanoAwareness: Nanotechnology applied to sports equipment",
+      "label": "Nanotecnología en el equipamiento deportivo",
+      "desc": "Divulgación de la Universidad de Zaragoza sobre cómo la investigación en nanotecnología llega al material deportivo.",
+      "tags": [
+        "biomateriales"
+      ]
+    },
+    {
+      "id": "r6-ko9j7n_0",
+      "latest": true,
+      "topic": "ia",
+      "type": "videos",
+      "dur": "5:06",
+      "channel": "News24",
+      "title": "Integration of Artificial Intelligence in sports analysis",
+      "label": "La IA en el análisis deportivo",
+      "desc": "Reportaje sobre la integración de la inteligencia artificial en el análisis del rendimiento deportivo.",
+      "tags": [
+        "ia",
+        "bigdata",
+        "movimiento"
+      ]
+    },
+    {
+      "id": "X2gI4M0ubqY",
+      "topic": "termografia",
+      "type": "videos",
+      "dur": "1:15",
+      "channel": "Digital Thermal Power",
+      "title": "Medical Infrared Thermography in Sports Medicine",
+      "label": "Termografía en medicina deportiva",
+      "desc": "Una visión general de la termografía infrarroja médica aplicada a la medicina del deporte.",
+      "tags": [
+        "termografia"
+      ]
+    },
+    {
+      "id": "Gd-FtcTMQLI",
+      "topic": "nanotecnologia",
+      "type": "videos",
+      "dur": "6:25",
+      "channel": "WOSU Public Media",
+      "title": "Nanotechnology and Textiles: QED with Dr. B",
+      "label": "Nanotecnología y textiles",
+      "desc": "Un investigador en ciencia de fibras explica cómo se combina la nanotecnología con los textiles.",
+      "tags": [
+        "biomateriales",
+        "wearables"
+      ]
+    },
+    {
+      "id": "MXGJDusTFEM",
+      "topic": "ia",
+      "type": "videos",
+      "dur": "4:24",
+      "channel": "TODAY",
+      "title": "Game changer: How AI is helping NFL referees make calls",
+      "label": "IA para ayudar al arbitraje",
+      "desc": "Cómo un sistema con inteligencia artificial ayuda a ubicar el balón en las jugadas de la NFL.",
+      "tags": [
+        "ia",
+        "movimiento"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "topic": "termografia",
+      "kind": "Artículo científico",
+      "source": "Frontiers in Physiology · 2026",
+      "title": "Infrared thermography to assess fatigue, injury risk factors and recovery in soccer: a systematic review of original studies",
+      "desc": "Revisión sistemática de 20 estudios originales con futbolistas.",
+      "icon": "file-text",
+      "cta": "Ver artículo",
+      "src": "frontiers"
+    },
+    {
+      "topic": "nanotecnologia",
+      "kind": "Revisión científica",
+      "source": "Results in Chemistry · ScienceDirect · 2025",
+      "title": "A comprehensive review on nanotechnology’s multifaceted applications in sports",
+      "desc": "Nanomateriales en ropa, equipamiento y monitorización; seguridad y costes.",
+      "icon": "flask-conical",
+      "cta": "Ver artículo",
+      "src": "nano"
+    },
+    {
+      "topic": "estadios",
+      "kind": "Informe técnico",
+      "source": "Deutsche Telekom IoT",
+      "title": "The 2026 World Cup and smart stadiums: what the IoT can achieve",
+      "desc": "Aplicaciones posibles del IoT en estadios y sus alrededores.",
+      "icon": "wifi",
+      "cta": "Ver documento",
+      "src": "telekom"
+    },
+    {
+      "topic": "termografia",
+      "kind": "Base de datos",
+      "source": "PubMed · NIH",
+      "title": "Estudios sobre termografía infrarroja en deportistas",
+      "desc": "Búsqueda preparada en literatura biomédica.",
+      "icon": "book-open",
+      "cta": "Ver búsqueda",
+      "src": "pubThermo"
+    },
+    {
+      "topic": "estadios",
+      "kind": "Base de datos",
+      "source": "IEEE Xplore",
+      "title": "Investigaciones de ingeniería sobre estadios inteligentes",
+      "desc": "Búsqueda preparada sobre \"smart stadium\".",
+      "icon": "cpu",
+      "cta": "Ver búsqueda",
+      "src": "ieee"
+    },
+    {
+      "topic": "estadios",
+      "kind": "Organización",
+      "source": "Green Sports Alliance",
+      "title": "Sostenibilidad en instalaciones y eventos deportivos",
+      "desc": "Recursos sobre deporte y medio ambiente.",
+      "icon": "leaf",
+      "cta": "Ver sitio",
+      "src": "gsa"
+    }
+  ],
+  "ticker": [
+    "Termografía infrarroja",
+    "Estadios conectados",
+    "Nanomateriales",
+    "Wearables",
+    "Internet de las cosas",
+    "Análisis del movimiento",
+    "Realidad virtual",
+    "Sostenibilidad",
+    "Big Data",
+    "5G"
+  ]
+}
