@@ -6,7 +6,7 @@ Página estática en HTML, CSS y JavaScript, sin dependencias.
 
 ## Cómo verla
 
-El contenido se carga desde `data/blog.json`, así que la página necesita servirse por HTTP (abrir `blog.html` con doble clic no funciona):
+El contenido se carga desde `data/blog.json`, así que la página necesita servirse por HTTP (abrir `index.html` con doble clic no funciona):
 
 ```bash
 npx serve .
@@ -14,12 +14,12 @@ npx serve .
 python -m http.server
 ```
 
-Luego abre `http://localhost:3000/blog.html` (o el puerto que indique el servidor).
+Luego abre `http://localhost:3000` (o el puerto que indique el servidor).
 
 ## Estructura
 
 ```
-blog.html        estructura de la página
+index.html       estructura de la página
 css/blog.css     estilos
 js/blog.js       lógica: render, filtros, búsqueda, lector y reproductor
 data/blog.json   contenido: categorías, conceptos, fuentes, artículos, noticias, mitos, videos y recursos
